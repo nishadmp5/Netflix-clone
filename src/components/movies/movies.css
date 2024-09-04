@@ -1,0 +1,97 @@
+
+body {
+    background-color: #111;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.movies-container {
+    background-color:#111 ;
+    
+}
+.movie {
+    margin-top: 520px;
+    width: 310px;
+    height: 190px;
+    transition: 0.1s;
+    background-color: #111;
+}
+ @media screen and (max-width : 480px){
+    .movie{
+        margin-top: 420px;
+        width: 210px;
+        height: 120px;
+        background-position: center;
+        background-size: contain;
+    }
+} 
+.type {
+    position: absolute;
+    top: 478px;
+    color: white;
+    left: 30px;
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+ @media screen and (max-width : 480px){
+    .type {
+        top: 385px;
+    }
+} 
+.cards{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.cards::-webkit-scrollbar {
+   display: none;
+}
+.movie:hover{
+    transform: scale(1.4);
+    transition: 0.5s;
+}
+.movie-names {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.small-card {
+    margin-top: 10px;
+    width: 150px;
+    height: 90px;
+    margin-left: 10px;
+    transition: 0.2s;
+}
+ @media screen and (max-width:480px){
+    .small-card{
+        margin-top: -2px;
+        
+    }
+} 
+.small-card:hover{
+    transform: scale(1.6);
+    transition: 0.5s;
+}
+.action-title {
+    margin-top: 10px;
+    color: white;
+    margin-left:30px ;
+}
+ @media screen and (max-width:480px){
+    .action-title {
+        margin-top: -5px;
+    }
+} 
+.action-name {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}

@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.signin_screen{
+    background-image: url('https://wpassets.brainstation.io/app/uploads/2017/04/13100509/Netflix-Background-1460x821.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #222;
+    color: white;
+    
+}
+@media screen and (max-width : 480px) {
+    .signin_screen {
+        background: #222;
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+
+.signup_header {
+    margin-left: 50px;
+    padding-top: 25px;
+}
+.signup_logo {
+    width: 170px;
+}
+@media screen and (max-width : 480px) {
+    .signup_logo {
+        width: 100px;
+        margin-left: -30px;
+    }
+}
+.signin_section {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background: rgba(1,1, 1, 0.7);
+    width: 450px;
+    height: 550px;
+    margin-left: 450px;
+    border-radius: 5px;
+}
+@media screen and (max-width : 480px) {
+    .signin_section {
+        margin-left: -20px;
+        width: 450px;
+        height: 550px;
+        background: none;
+        margin-top: 120px;
+    }
+}
+.signin_section h1 {
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.signin_section input {
+    padding-left: 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+@media screen and (max-width : 480px) {
+    .signin_section input {
+        background-color: #222;
+        color: white;
+        font-size: 16px;
+    }
+}
+.email_inp {
+    margin-top: -90px;
+}
+.password_inp {
+    margin-top: -220px;
+}
+.signIn_btn{
+    width: 300px;
+    background-color: red;
+    height: 50px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -260px;
+    color: white;
+    font-size: 16px;
+    font-weight:600; 
+    cursor: pointer;
+}
+
+.new_to_netflix {
+    position: absolute;
+    top: 500px;
+    left: 525px;
+    color: grey;
+    font-family: sans-serif;
+}
+@media screen and (max-width : 480px) {
+    .new_to_netflix {
+        left: 55px;
+        top: 580px;
+        font-size: 18px;
+    }
+}
+.new_to_netflix span{
+    color: white;
+    cursor: pointer;
+
+}
+.new_to_netflix span:hover{
+    text-decoration: underline;
+}
+.ensurence {
+    position: absolute;
+    top: 524px;
+    font-size: 12px;
+    left: 525px;
+    color: grey;
+    font-family: sans-serif;
+}
+@media screen and (max-width : 480px) {
+    .ensurence {
+        left: 55px;
+        top: 610px;
+    }
+}
